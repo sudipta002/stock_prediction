@@ -1,0 +1,14 @@
+{
+    "symbol" : "SBIN",
+    "train_start_date" : "2015,1,1",
+    "train_end_date" : "2020,12,31",
+    "test_start_date" : "2021,1,1",
+    "test_end_date" : "2022,1,5",
+    "n_step" : "60",
+    "date_col" : "Date",
+    "feature_col_1" : "Open",
+    "optimizer" : "adam",
+    "loss" : "mean_squared_error",
+    "epochs" : "15",
+    "batch_size" : "32"
+}
